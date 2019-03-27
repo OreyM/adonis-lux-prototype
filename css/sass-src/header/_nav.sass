@@ -1,0 +1,41 @@
+#top-nav
+  background-color: $nav-color
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  height: auto
+  padding-top: 9px
+
+  .row
+    margin-bottom: 0
+
+  .nav-wrapper
+    .brand-logo
+      padding-top: 6px
+      img
+
+  .nav-menu
+    .nav-menu-item
+      text-transform: uppercase
+      margin: 0 17px
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
+      >a
+        font-size: rem(16px)
+        color: $nav-color-no-hover
+        transition: all .3s
+        &:hover
+          color: #000
+      .nav-menu-title
+        padding: 0
+        &:hover
+          background-color: transparent
+    .nav-menu-dropdown
+      >a
+        padding: 0
+        &:hover
+          background-color: transparent
+        li
+          a
