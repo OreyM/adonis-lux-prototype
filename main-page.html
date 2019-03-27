@@ -8,6 +8,8 @@
 
     <!-- Import Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Foofle Fonts Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <!-- Import style /sass compile/ -->
     <link rel="stylesheet" href="css/main.min.css">
 
@@ -22,13 +24,13 @@
                 <div class="lang-wrap">
                     <ul class="lang-list">
                         <li class="lang-item">
-                            <a href="#!" class="lang-select active-lang">Russian</a>
+                            <a href="#!" class="lang-select active-lang">russian</a>
                         </li>
                         <li class="lang-item">
-                            <a href="#!" class="lang-select">English</a>
+                            <a href="#!" class="lang-select">english</a>
                         </li>
                         <li class="lang-item">
-                            <a href="#!" class="lang-select">Deutsch</a>
+                            <a href="#!" class="lang-select">deutsch</a>
                         </li>
                     </ul>
                 </div>
@@ -47,34 +49,34 @@
 
                     <ul class="right hide-on-med-and-down nav-menu">
                         <li class="nav-menu-item">
-                            <a class="nav-menu-title" href="#!">О предприятии</a>
+                            <a class="nav-menu-title" href="#!">о предприятии</a>
                         </li>
                         <li class="nav-menu-item nav-menu-dropdown">
-                            <a class="dropdown-trigger" href="#!" data-target="dropdown-menu-1">Продукция</a>
+                            <a class="dropdown-trigger" href="#!" data-target="dropdown-menu-1">продукция</a>
                             <ul id="dropdown-menu-1" class="dropdown-content" tabindex="0">
                                 <li tabindex="0">
-                                    <a href="#!">Пшено</a>
+                                    <a href="#!">пшено</a>
                                 </li>
                                 <li tabindex="0">
-                                    <a href="#!">Крупа пшеничная</a>
+                                    <a href="#!">крупа пшеничная</a>
                                 </li>
                                 <li tabindex="0">
-                                    <a href="#!">Крупа ячневая</a>
+                                    <a href="#!">крупа ячневая</a>
                                 </li>
                                 <li tabindex="0">
-                                    <a href="#!">Крупа перловая</a>
+                                    <a href="#!">крупа перловая</a>
                                 </li>
                                 <!--<li class="divider" tabindex="0"></li>-->
                             </ul>
                         </li>
                         <li class="nav-menu-item">
-                            <a class="nav-menu-title" href="#!">Услуги</a>
+                            <a class="nav-menu-title" href="#!">услуги</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a class="nav-menu-title" href="#!">Закупаем</a>
+                            <a class="nav-menu-title" href="#!">закупаем</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a class="nav-menu-title" href="#!">Контакты</a>
+                            <a class="nav-menu-title" href="#!">контакты</a>
                         </li>
                     </ul>
 
@@ -83,25 +85,44 @@
         </div>
     </nav>
 
-    <div id="top-header-image" style="background-image: url('image/top-image.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="top-header-title-wrap">
+    <div id="top-header-image">
+
+        <div class="header-img-wrap">
+            <img src="image/top-image.jpg" alt="">
+        </div>
+
+        <div class="top-header-title-wrap">
+            <div class="container">
+                <div class="row">
                     <div class="top-header-title">
-                        <h1>Производство Пшена</h1>
+                        <h1>производство пшена</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
     <aside id="sidebar">
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li class="sidenav-item"><a href="#!">о предприятии</a></li>
+            <li class="sidenav-item">
+                <ul class="collapsible sidenav-dropdown">
+                    <li class="sidenav-dropdown-list">
+                        <div class="collapsible-header">продукция</div>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a class="sidenav-item" href="#!">пшено</a></li>
+                                <li><a class="sidenav-item" href="#!">крупа пшеничная</a></li>
+                                <li><a class="sidenav-item" href="#!">крупа ячневая</a></li>
+                                <li><a class="sidenav-item" href="#!">крупа перловая</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidenav-item"><a href="#!">услуги</a></li>
+            <li class="sidenav-item"><a href="#!">закупаем</a></li>
+            <li class="sidenav-item"><a href="#!">контакты</a></li>
         </ul>
     </aside>
 

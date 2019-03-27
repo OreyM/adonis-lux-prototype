@@ -1,2 +1,21 @@
 #top-nav
   .sidenav-trigger
+
+#sidebar
+  .sidenav
+    background-color: $nav-color
+    .sidenav-item
+      text-transform: uppercase
+      .sidenav-dropdown
+        .sidenav-dropdown-list
+          &.active
+            background-color: $menu-button
+          .collapsible-header
+            padding: 0 32px
+          .collapsible-body
+            padding: 0 20px
+            background-color: #96be0e
+            .sidenav-item
+              text-transform: lowercase
+              &:first-letter
+                text-transform: uppercase
