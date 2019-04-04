@@ -1,0 +1,82 @@
+header
+  background: url('../image/top-lined-bg.png')
+  padding: 0 20px 18px 20px
+
+#lang
+  .lang-wrap
+    display: flex
+    justify-content: flex-end
+    .lang-list
+      position: relative
+      right: -6px
+      display: flex
+      margin: 1px 0 5px 0
+      .lang-item
+        text-transform: uppercase
+        margin: 0 14px
+        &:first-child
+          margin-left: 0
+        &:last-child
+          margin-right: 0
+        .lang-select
+          padding: 2px 6px
+          -webkit-user-select: none
+          -moz-user-select: none
+          -ms-user-select: none
+          user-select: none
+          font-family: $comfortaa-bold
+          font-size: rem(10px)
+          letter-spacing: rem(2px)
+          text-transform: uppercase
+          color: #000
+          transition: $transition
+          &.active-lang
+            background-color: $menu-button
+            color: #fff
+          &:hover
+            background-color: $menu-button
+            color: #fff
+  .row
+    margin-bottom: 0
+
+#top-header-image
+  position: relative
+  top: -2px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  background-color: $nav-color
+  overflow: hidden
+  .header-img-wrap
+    overflow: hidden
+    max-height: 630px
+    img
+  .top-header-title-wrap
+    position: absolute
+    top: 28px
+    left: 0
+    width: 100%
+    .top-header-title
+      h1
+        font-family: $open-sans
+        font-weight: bold
+        font-size: rem(72px)
+        text-transform: capitalize
+        color: $nav-color-no-hover
+//#top-header-image
+//  position: relative
+//  background-size: cover
+//  background-position: center
+//  width: 100%
+//  .row
+//    margin-bottom: 0
+//  .top-header-title-wrap
+//    position: relative
+//    top: 46px
+//    .top-header-title
+//      h1
+//        margin: 0
+//        font-family: 'Open Sans', sans-serif
+//        font-weight: bold
+//        font-size: rem(72px)

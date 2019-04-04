@@ -1,0 +1,75 @@
+#top-nav
+  background-color: $nav-color
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  height: auto
+  padding-top: 9px
+
+  .row
+    margin-bottom: 0
+
+  .nav-wrapper
+    .brand-logo
+      padding-top: 6px
+      img
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+  .nav-menu
+    .nav-menu-item
+      text-transform: uppercase
+      margin: 0 17px
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
+      >a
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+        font-size: rem(16px)
+        color: $nav-color-no-hover
+        transition: $transition
+        &:hover
+          color: #000
+      .nav-menu-title
+        padding: 0
+        &:hover
+          background-color: transparent
+    .nav-menu-dropdown
+      >a
+        padding: 0
+        &:hover
+          background-color: transparent
+      .dropdown-content
+        top: 62px !important
+        width: auto !important
+        padding: 0 10px
+        background-color: $menu-button
+        border-radius: 10px
+        -webkit-box-shadow: none
+        -moz-box-shadow: none
+        box-shadow: none
+        li
+          min-height: auto
+          &:hover
+            background: transparent
+          a
+            padding: 10px 30px
+            -webkit-user-select: none
+            -moz-user-select: none
+            -ms-user-select: none
+            user-select: none
+            text-transform: initial
+            color: $dropdown-color
+            font-size: rem(16px)
+            transition: $transition
+            &:first-letter
+              text-transform: uppercase
+            &:hover
+              background-color: transparent
+              color: #000

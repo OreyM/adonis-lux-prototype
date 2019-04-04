@@ -1,0 +1,46 @@
+.content
+
+  &.overflow-image
+    background-repeat: no-repeat
+    background-position: top right
+    .content-text-wrap
+      height: 535px
+
+  &.content-info
+    .content-image-wrap
+      position: relative
+      left: 92px
+      .circle
+        position: absolute
+        top: -80px
+        left: -90px
+        width: 367px
+        height: 367px
+        background-color: $rectangle-green
+        z-index: 1
+      .image-wrap
+        position: absolute
+        width: 375px
+        height: 498px
+        z-index: 2
+        img
+          width: 100%
+    .content-info-wrap
+      display: flex
+      flex-direction: column
+      height: 468px
+      justify-content: center
+
+  .content-title-wrap
+    margin-bottom: 31px
+    .content-title
+      font-size: rem(42px)
+      font-family: $open-sans
+
+  .content-text-wrap
+    margin-top: 31px
+    p
+      margin-bottom: 34px
+      line-height: 30px
+      font-size: rem(14px)
+
