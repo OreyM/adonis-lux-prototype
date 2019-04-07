@@ -1,7 +1,5 @@
 <?php
 
-$locale = get_locale();
-
 if ( get_locale() == 'ru_RU' )
 {
     $pageID = 6;

@@ -2,12 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d83ddf0-d388-47c4-9441-ffcd780f7269" name="Default Changelist" comment="main page create. header struct finish. mobile optimize">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles-dark-mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/config-validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/editor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/capabilities.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/config-validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/l10n.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/pipe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/rest-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/upgrade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/constant-contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/hidden.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/listo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/uninstall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/css/block-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/css/tadv-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/dist/classic-paragraph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/dist/classic-paragraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/dist/richtext-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/dist/richtext-buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/colors-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/colors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/toolbar-actions-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/toolbar-actions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/toolbar-left-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/toolbar-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/images/toolbar-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/js/tadv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/advlist/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/anchor/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/anchor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/code/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/contextmenu/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/contextmenu/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_biggrin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_confused.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_eek.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_evil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_idea.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_lol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_mad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_mrgreen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_neutral.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_razz.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_redface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_rolleyes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_sad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_twisted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/img/icon_wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/emoticons/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/importcss/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/insertdatetime/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/nonbreaking/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/print/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/print/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/searchreplace/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/address.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/article.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/aside.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/blockquote.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/div.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/figure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/h6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/hgroup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/ol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/section.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/img/ul.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualchars/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/visualchars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/wptadv/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/wptadv/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tadv_admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tinymce-advanced.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/uninstall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error/503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error/debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error/devError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/lib-src/debug/error/style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/block/feedback.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/header.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/main/about.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/main/cooperation.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/menu/nav.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/wp-content/themes/adonis/template/menu/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/bg-overflow-image-1-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/bg-overflow-image-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/bg-overflow-image-1-300x274.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/bg-overflow-image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/image-1-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/image-1-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/image-1-233x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-1-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-1-211x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-2-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-2-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-2-233x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-294x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-3-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-3-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-3-287x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-0-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-0-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-0-202x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-1-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-1-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-1-219x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-2-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-2-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-2-245x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-3-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-3-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-3-280x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/uploads/2019/04/item.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/adonis/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/adonis/css/main.min.css" afterDir="false" />
@@ -30,17 +245,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="96">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/cooperation.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/block/feedback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -48,8 +263,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+            <state relative-caret-position="144">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,8 +275,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="55" />
+            <state relative-caret-position="32">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -66,11 +284,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_prototype/main-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="253" selection-start-line="253" selection-end-line="279" selection-end-column="10" />
+            <state relative-caret-position="211">
+              <caret line="281" selection-start-line="281" selection-end-line="314" selection-end-column="10" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -144,7 +363,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/css/sass-src/header/_sidebar.sass" />
         <option value="$PROJECT_DIR$/css/sass-src/media/_header-mesia.sass" />
         <option value="$PROJECT_DIR$/css/sass-src/media/_header-media.sass" />
@@ -191,10 +409,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/menu/nav.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/menu/sidebar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/main/about.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/adonis/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/main/cooperation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/adonis/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/adonis/template/block/feedback.php" />
       </list>
     </option>
   </component>
@@ -280,15 +499,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="adonis" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adonislux.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adonislux.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="adonis" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -359,12 +569,12 @@
       <updated>1553531367208</updated>
       <workItem from="1553531372821" duration="53000" />
       <workItem from="1553531740577" duration="595000" />
-      <workItem from="1553599495434" duration="103319000" />
+      <workItem from="1553599495434" duration="104774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103967000" />
+    <option name="totallyTimeSpent" value="105422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -420,13 +630,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="main page create. header struct finish. mobile optimize" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prototype/css/sass-src/header/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototype/css/sass-src/block/_content.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -781,42 +984,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/cooperation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="368">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_prototype/main-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="253" selection-start-line="253" selection-end-line="279" selection-end-column="10" />
+        <state relative-caret-position="211">
+          <caret line="281" selection-start-line="281" selection-end-line="314" selection-end-column="10" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/cooperation.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="96">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/main/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/block/rectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/adonis/template/block/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
