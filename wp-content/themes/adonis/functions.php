@@ -9,6 +9,18 @@
  * @since 1.0
  */
 
+
+
+# Подключение вывода ошибок и дебага
+include 'lib-src/debug/Debug.php';
+if ( TRUE === HL_DEBUG && !is_admin() && is_super_admin( get_current_user_id() ) )
+{
+    new Debug();
+}
+
+
+
+
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */

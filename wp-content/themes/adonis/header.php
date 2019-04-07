@@ -14,13 +14,4 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.min.css">
 </head>
 
-<?php //if ( has_nav_menu( 'top' ) ) : ?>
-<!--    <div class="navigation-top">-->
-<!--        <div class="wrap">-->
-<!--            --><?php //get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
-<!--        </div>-->
-<!--    </div>-->
-<?php //endif; ?>
-
-
 <body <?php body_class(); ?>>
